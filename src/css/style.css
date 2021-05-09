@@ -64,6 +64,23 @@ hr {
   text-align: center;
 }
 
+.header-container a {
+  color: #1D1D1F;
+  text-decoration: none;
+}
+
+.hidden-link {
+  color: #1D1D1F;
+  text-decoration: none;
+  cursor: default;
+  line-height: 0;
+}
+
+.hidden-link:focus,
+.hidden-link:active {
+  outline: none;
+}
+
 .navbar-container {
   background-color: #FFFFFF;
   border-bottom: 1px solid #D2D2D2;
